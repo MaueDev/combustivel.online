@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+:root{
+    --Background: black;
+}
+.LogoHeader
+{
+    font-family: 'Fjalla One', sans-serif;
+}
