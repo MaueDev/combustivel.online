@@ -1,6 +1,5 @@
 import "./styles/header.css";
-
-
+import TextLocation from "./Input/TextLocation"
 export default function Header() 
 {
     return (
@@ -9,13 +8,8 @@ export default function Header()
                 <h1>COMBUSTIVEL.ONLINE</h1>
             </div>
             <div>
-                <div>
-                    <label>Cidade:</label>
-                    <input type="text" />
-                </div>
-                <div>
-                    <button>Entrar</button>
-                    <button>Criar Conta</button>
+                <div className="HeaderCidade">
+                    <TextLocation />
                 </div>
             </div>
         </header>

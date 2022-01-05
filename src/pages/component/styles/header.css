@@ -1,9 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
 
 :root{
-    --Background: black;
+    --Background: #121212;
+    --RedColor: #F05454;
+    --WhiteColor: #F5F5F5;
+    --BlueColor: #30475E;
 }
+
+body
+{
+    background-color: var(--Background);
+}
+
+header
+{
+    background-color: var(--WhiteColor);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoHeader
+{
+    width: 100%;
+}
+
+header div:first-child
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+header h1
+{
+    padding: 10px;
+    color: var(--BlueColor);
+    text-shadow: 0px 0px 7px 0px rgba(0,0,0,0.63);
+}
+
+
 .LogoHeader
 {
     font-family: 'Fjalla One', sans-serif;
+    padding: 0;
+}
+
+
+.HeaderCidade{
+    background: transparent;
+    position: relative;
+    padding-bottom: 15px;
 }
