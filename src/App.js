@@ -1,13 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
+/*Component */
 import Header from './pages/component/header';
+import Content from "./pages/component/Content"
+/*Component */
 
 export default function App() {
   return (
     <div>
       <Header/>
-      <MenuCon
+      <Content/>
       <nav
         style={{
           borderBottom: "solid 1px",
