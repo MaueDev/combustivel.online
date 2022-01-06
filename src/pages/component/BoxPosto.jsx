@@ -9,20 +9,25 @@ export default function BoxPosto(props)
             <div className='LabelBox'>
                 <ul>
                     <li>
-                        <h3>5,50</h3>
-                        <h5>G <small>COMUM</small></h5>
+                        <h5>5,50</h5>
+                        <h6>G </h6><small>Comum</small>
                     </li>
                     <li>
-                        <h5>A<small>COMUM</small></h5>
-                        <h3>R$:5,50</h3>
+                        <h5>5,50</h5>
+                        <h6>G </h6><small>Aditivada</small>
                     </li>
                     <li>
-                        <h5>D <small>COMUM</small></h5>
-                        <h3>R$:5,50</h3>
+                        <h5>5,50</h5>
+                        <h6>A</h6>
+                        <small></small>
                     </li>
                     <li>
-                        <h5>E<small>COMUM</small></h5>
-                        <h3>R$:5,50</h3>
+                        <h5>5,50</h5>
+                        <h6>Diesel </h6><small>Comun</small>
+                    </li>
+                    <li>
+                        <h5>5,50</h5>
+                        <h6>Diesel </h6><small>S10</small>
                     </li>
                 </ul>
             </div>

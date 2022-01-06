@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 .BoxPrincipal
 {
     background-color: var(--WhiteColor) ;
@@ -18,13 +20,39 @@
 
 .LogoPosto
 {
-    width: 80px;
-    height:80px;
+    width: 40%;
+    height: 100%;
     background-color: black;
+}
+
+.LabelBox
+{
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .LabelBox ul
 {
+    width: 100%;
     display: flex;
-    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.LabelBox li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.LabelBox li h5
+{
+    width: 100%;
+}
+.LabelBox li h6
+{
+    display: inline-block;
+    width: 100%;
 }
