@@ -1,0 +1,30 @@
+.BoxPrincipal
+{
+    background-color: var(--WhiteColor) ;
+    
+    flex-grow: 1;
+    margin: 1.5px 1px 1.5px 1px;
+    height: 120px;
+    min-width: 280px;
+
+    display: flex;
+    
+}
+
+.BoxPrincipal:first-child
+{
+    margin: 3px 1px 1.5px 1px;
+}
+
+.LogoPosto
+{
+    width: 80px;
+    height:80px;
+    background-color: black;
+}
+
+.LabelBox ul
+{
+    display: flex;
+    text-decoration: none;
+}

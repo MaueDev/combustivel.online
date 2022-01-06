@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url("./content.css");
+
 *{
     padding: 0;
     margin: 0;

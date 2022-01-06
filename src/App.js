@@ -6,11 +6,17 @@ import Header from './pages/component/header';
 import Content from "./pages/component/Content"
 /*Component */
 
+/* Styles */
+import "./pages/component/styles/main.css"
+/* Styles */
+
 export default function App() {
   return (
     <div>
       <Header/>
-      <Content/>
+      <main className='MainContent'>
+        <Content/>
+      </main>
       <nav
         style={{
           borderBottom: "solid 1px",
